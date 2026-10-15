@@ -4,13 +4,196 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#650d25"><title>Sippresso Cafe | Menu</title>
 <style>
-:root{--wine:#690d27;--wine2:#450719;--cream:#fff0d8;--gold:#f3c99b;--ink:#35101c;--line:#e9b9a4}
-*{box-sizing:border-box}body{margin:0;background:var(--wine2);color:var(--cream);font-family:Georgia,'Times New Roman',serif;background-image:radial-gradient(ellipse at 20% 0%,#8c1938 0,transparent 42%),radial-gradient(ellipse at 100% 65%,#74122e 0,transparent 45%)}
-header{text-align:center;padding:34px 16px 26px;background:linear-gradient(180deg,#f5ce9c,#f0784b 58%,#760f2b);color:white}header .logo{font-family:Arial,sans-serif;font-weight:500;letter-spacing:3px;font-size:clamp(2rem,7vw,3.8rem)}header .cafe{letter-spacing:8px;font-size:1rem;margin-top:2px}header p{margin:20px auto 0;max-width:560px;font-size:.95rem;color:#fff2dc}
-nav{display:flex;gap:8px;overflow:auto;padding:12px;position:sticky;top:0;background:#450719f2;z-index:5;border-bottom:1px solid #a94a60}nav a{color:var(--cream);text-decoration:none;white-space:nowrap;border:1px solid #b45b70;border-radius:99px;padding:8px 13px;font:14px Arial,sans-serif}
-main{max-width:1120px;margin:auto;padding:18px 14px 46px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.column{display:flex;flex-direction:column;gap:14px}.section{padding:18px 17px;background:#740f2be8;border:1px solid #9a344e;border-radius:3px;box-shadow:0 10px 25px #21030b44;scroll-margin-top:72px}.section h2{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line);font-size:clamp(1.15rem,2vw,1.55rem);font-weight:normal}.section h2 small{font-size:.82rem;color:#f0c7b3}.item{padding:7px 0 5px;border-bottom:1px solid #ffffff14}.item:last-child{border-bottom:0}.itemtop{display:flex;justify-content:space-between;gap:12px;align-items:baseline}.name{font-size:1rem;line-height:1.25}.arabic{font-size:.88rem;color:#f6d7c7;direction:rtl}.price{white-space:nowrap;color:var(--gold);font-size:.98rem}.desc{font:11px/1.4 Arial,sans-serif;color:#f0c9bc;margin-top:3px}.hero-items{padding:16px;background:#fff0d8;color:#650d25;border-radius:3px}.hero-items h2{border-color:#b87572}.hero-items .price{color:#650d25}.hero-items .arabic,.hero-items .desc{color:#6f3b45}.foot{text-align:center;padding:26px 14px 34px;color:#f5d6c5;border-top:1px solid #8c2d45}.foot strong{letter-spacing:2px;font: bold 1.2rem Arial,sans-serif}.foot a{color:var(--gold)}
-@media(max-width:760px){main{grid-template-columns:1fr;max-width:560px}.section{padding:18px}.section h2{font-size:1.35rem}header{padding-top:28px}}
-</style></head><body>
+:root{
+  --wine:#700D29;
+  --wine2:#500719;
+  --cream:#FFF0D8;
+  --gold:#F3C99B;
+  --ink:#35101C;
+  --line:#C58B83;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--wine2);
+  color:var(--cream);
+  font-family:Georgia,'Times New Roman',serif;
+  background-image:
+    radial-gradient(ellipse at 20% 0%,#76172D 0,transparent 45%),
+    radial-gradient(ellipse at 100% 65%,#680D27 0,transparent 45%);
+}
+
+header{
+  text-align:center;
+  padding:34px 16px 26px;
+  background:linear-gradient(
+    180deg,
+    #F5CE9C 0%,
+    #F0784B 38%,
+    #D94332 65%,
+    #700D29 100%
+  );
+  color:var(--cream);
+}
+
+header .logo{
+  font-family:Arial,sans-serif;
+  font-weight:500;
+  letter-spacing:3px;
+  font-size:clamp(2rem,7vw,3.8rem);
+}
+
+header .cafe{
+  letter-spacing:8px;
+  font-size:1rem;
+  margin-top:2px;
+}
+
+header p{
+  margin:20px auto 0;
+  max-width:560px;
+  font-size:.95rem;
+  color:#FFF0D8;
+}
+
+nav{
+  display:flex;
+  gap:8px;
+  overflow:auto;
+  padding:12px;
+  position:sticky;
+  top:0;
+  background:#500719F2;
+  z-index:5;
+  border-bottom:1px solid #9B4355;
+}
+
+nav a{
+  color:var(--cream);
+  text-decoration:none;
+  white-space:nowrap;
+  border:1px solid #A65A69;
+  border-radius:99px;
+  padding:8px 13px;
+  font:14px Arial,sans-serif;
+}
+
+main{
+  max-width:1120px;
+  margin:auto;
+  padding:18px 14px 46px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+}
+
+.column{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.section{
+  padding:18px 17px;
+  background:#700D29;
+  border:1px solid #8D3045;
+  border-radius:3px;
+  box-shadow:0 10px 25px #21030B44;
+  scroll-margin-top:72px;
+}
+
+.section h2{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:8px;
+  margin:0 0 12px;
+  padding-bottom:8px;
+  border-bottom:1px solid var(--line);
+  font-size:clamp(1.15rem,2vw,1.55rem);
+  font-weight:normal;
+}
+
+.section h2 small{
+  font-size:.82rem;
+  color:#E8C3B4;
+}
+
+.item{
+  padding:7px 0 5px;
+  border-bottom:1px solid #FFFFFF14;
+}
+
+.item:last-child{border-bottom:0}
+
+.itemtop{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:baseline;
+}
+
+.name{
+  font-size:1rem;
+  line-height:1.25;
+}
+
+.arabic{
+  font-size:.88rem;
+  color:#F6DCCB;
+  direction:rtl;
+}
+
+.price{
+  white-space:nowrap;
+  color:var(--gold);
+  font-size:.98rem;
+}
+
+.desc{
+  font:11px/1.4 Arial,sans-serif;
+  color:#E8C9BD;
+  margin-top:3px;
+}
+
+.hero-items{
+  padding:16px;
+  background:#FFF0D8;
+  color:#650D25;
+  border-radius:3px;
+}
+
+.hero-items h2{border-color:#B87572}
+.hero-items .price{color:#650D25}
+.hero-items .arabic,
+.hero-items .desc{color:#6F3B45}
+
+.foot{
+  text-align:center;
+  padding:26px 14px 34px;
+  color:#E8C9BD;
+  border-top:1px solid #8C2D45;
+}
+
+.foot strong{
+  letter-spacing:2px;
+  font:bold 1.2rem Arial,sans-serif;
+}
+
+.foot a{color:var(--gold)}
+
+@media(max-width:760px){
+  main{
+    grid-template-columns:1fr;
+    max-width:560px;
+  }
+  .section{padding:18px}
+  .section h2{font-size:1.35rem}
+  header{padding-top:28px}
+}
+</style>
 <header><div class="logo">SIPPRESSO</div><div class="cafe">C A F E</div><p>Good drinks. Good moments. Find your favorites.</p></header>
 <nav><a href="#coffee">Coffee</a><a href="#latte">Latte</a><a href="#matcha">Matcha</a><a href="#fresh">Fresh drinks</a><a href="#smoothies">Smoothies</a><a href="#tea">Tea</a><a href="#shakes">Milk shakes</a><a href="#bakery">Bakery & toast</a><a href="#kids">Kids</a></nav>
 <main>
